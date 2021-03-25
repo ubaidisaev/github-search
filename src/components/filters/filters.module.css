@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+
+.btn {
+  color: #304ffe;
+  border-bottom: 1px dashed #304ffe;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.inputField {
+  width: 115px;
+}
+
+.inputField {
+  width: 115px;
+}
+
+.inputField + .inputField {
+  margin-left: 15px;
+}
+
+.langs {
+  padding-left: 20px;
+}
+
+.langsLabel {
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}

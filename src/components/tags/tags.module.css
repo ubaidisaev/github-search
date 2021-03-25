@@ -1,0 +1,26 @@
+.tagsWrap {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+.tag {
+  font-size: 14px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12));
+  border-radius: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+}
+
+.tag + .tag {
+  margin-left: 5px;
+}
+
+.tagSelected {
+  background-color: #d4d9fa;
+  color: #304ffe;
+}

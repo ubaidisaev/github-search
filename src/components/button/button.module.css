@@ -1,0 +1,21 @@
+.btn {
+  font-family: Roboto;
+  width: 100%;
+  height: 48px;
+  padding: 0 12px;
+  position: relative;
+  background: #304ffe;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  border: 1px solid transparent;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}

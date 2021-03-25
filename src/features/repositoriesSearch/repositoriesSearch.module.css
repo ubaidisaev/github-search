@@ -1,0 +1,71 @@
+.repositoriesSearch {
+  list-style: none;
+  padding: 0;
+}
+
+.repoheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reposearchform {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reposearchform > div {
+  margin-right: 5px;
+}
+
+.repoownername {
+  color: #304ffe;
+  cursor: pointer;
+}
+
+.repositoriesSearchItem {
+  padding: 18px 24px 22px 22px;
+  background: #ffffff;
+  border: 1px solid rgba(46, 91, 255, 0.08);
+  border-left-color: #304ffe;
+  border-radius: 5px;
+}
+
+.repositoriesSearchItem + .repositoriesSearchItem {
+  margin-top: 5px;
+}
+
+.reponame {
+  color: #304ffe;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.repodesc {
+  margin-top: 6px;
+}
+
+.repofooter {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repostats {
+  width: 100%;
+  max-width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repostatsname {
+  opacity: 0.6;
+  padding-right: 5px;
+}
+
+.repolastupdate {
+  opacity: 0.6;
+}

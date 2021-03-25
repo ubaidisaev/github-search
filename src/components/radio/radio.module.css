@@ -1,0 +1,48 @@
+.input {
+  display: none;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.radiolabel {
+  line-height: 16px;
+  padding: 1px 0 0 20px;
+  position: relative;
+  display: block;
+  white-space: normal;
+}
+
+.radiolabel:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 2px solid #bfcbd8;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.radiolabel:after {
+  content: '';
+}
+
+.input:checked + .radiolabel::before {
+  background: #2e5bff;
+  border-color: #2e5bff;
+}
+
+.input:checked + .radiolabel::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+}

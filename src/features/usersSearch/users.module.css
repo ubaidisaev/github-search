@@ -1,0 +1,183 @@
+.usersList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.usersListItem {
+  width: 80px;
+  height: 80px;
+}
+
+.usersListItemImg {
+  width: 100%;
+  cursor: pointer;
+}
+.searchResultHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.itemsPerPage {
+  display: flex;
+}
+
+/* bew ibe */
+.usersList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.usersListItem {
+  width: 80px;
+  height: 80px;
+}
+
+.usersListItemImg {
+  width: 100%;
+  cursor: pointer;
+}
+
+.modal {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1300;
+  position: fixed;
+}
+
+.modalOverlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  position: fixed;
+  touch-action: none;
+  background-color: #8fa0fe;
+  opacity: 0.54;
+  /* -webkit-tap-highlight-color: transparent; */
+}
+
+.modalContent {
+  position: absolute;
+  max-width: 533px;
+  padding: 50px 40px;
+  background: #ffffff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.userInfo {
+  display: flex;
+}
+
+.userAvatar {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.userName {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #304ffe;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.userLogin {
+  font-size: 15px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.87);
+  opacity: 0.6;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.userLocation {
+  font-size: 12px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.87);
+  opacity: 0.6;
+  display: block;
+}
+
+.userDetailsBottomInfo {
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.4px;
+  color: #304ffe;
+  display: inline-flex;
+  margin-right: 30px;
+}
+
+.userDetailsBottomInfo:last-child {
+  margin-right: 0;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.userDetailsBottom {
+  margin-top: auto;
+}
+
+.userSeachForm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.userSearchBtn {
+  max-width: 200px;
+  margin-left: 5px;
+}
+
+.userSearchField {
+  margin-right: 5px;
+}
+
+/* remove later */
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+
+.btn {
+  color: #304ffe;
+  border-bottom: 1px dashed #304ffe;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.stars {
+  width: 115px;
+  margin-right: 5px;
+}
+
+.forks {
+  width: 115px;
+}
+
+.langs {
+  padding-left: 20px;
+}
+
+.langsLabel {
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
